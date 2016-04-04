@@ -1,9 +1,9 @@
 TEMPLATE = app
 TARGET = MaciLaci
-DESTDIR = ./bin
 QT += core widgets gui
 CONFIG += release
 CONFIG += c++14
+OUTDIR = $$OUT_PWD/bin
 DEFINES += QT_DLL QT_WIDGETS_LIB
 INCLUDEPATH += ./GeneratedFiles \
     . \
@@ -26,3 +26,8 @@ SOURCES += ./main.cpp \
     ./View/ViewGridLabel.cpp
 FORMS += ./eva_bead_2.ui
 RESOURCES += eva_bead_2.qrc
+maps.path = $$OUT_PWD/Maps
+maps.files = ./Maps/*
+target.path = $$OUT_PWD
+INSTALLS += maps
+INSTALLS += target

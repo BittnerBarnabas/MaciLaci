@@ -3,6 +3,7 @@ TARGET = MaciLaci
 DESTDIR = ./bin
 QT += core widgets gui
 CONFIG += release
+CONFIG += c++14
 DEFINES += QT_DLL QT_WIDGETS_LIB
 INCLUDEPATH += ./GeneratedFiles \
     . \
@@ -25,4 +26,3 @@ SOURCES += ./main.cpp \
     ./View/ViewGridLabel.cpp
 FORMS += ./eva_bead_2.ui
 RESOURCES += eva_bead_2.qrc
-QMAKE_CXXFLAGS += -std=c++14

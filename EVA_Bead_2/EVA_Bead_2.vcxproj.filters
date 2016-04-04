@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4ef230b7-e4a5-46e9-87c4-0fde428e9097}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4d053e22-e43d-432a-b492-748455a57385}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{dde18cf9-2304-4c8f-b8c6-a52236dfbd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Header">
+      <UniqueIdentifier>{8e64ebb8-4b64-4912-9b14-49b96e3c9d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Source">
+      <UniqueIdentifier>{0ba6bf8d-d6b6-4fec-9f9e-7b2e39521d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{16209bdf-c5f4-40e5-969f-358b98963111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Header">
+      <UniqueIdentifier>{1bfc9675-1d12-4c21-8dc7-20751bd7aef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Source">
+      <UniqueIdentifier>{8f56b2b1-431c-4ed7-8861-4147e78d7ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{189d04e2-b514-47c0-a6f5-5e798dab92bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Implementation\ImplGame.cpp">
+      <Filter>Implementation\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View\GameView.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Implementation\ImplUtility.cpp">
+      <Filter>Implementation\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Implementation\ImpTypes.cpp">
+      <Filter>Implementation\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewGridLabel.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImplGame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImplGame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewGridLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewGridLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GameView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GameView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_eva_bead_2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="eva_bead_2.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="eva_bead_2.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Implementation\ImplGame.h">
+      <Filter>Implementation\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="View\GameView.h">
+      <Filter>View\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="View\ViewGridLabel.h">
+      <Filter>View\Header</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Implementation\ImplUtility.h">
+      <Filter>Implementation\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementation\ImpTypes.h">
+      <Filter>Implementation\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_eva_bead_2.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\map1.map">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="Maps\map2.map">
+      <Filter>Maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icons\bear_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\food_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\hunter_icon.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\tree_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\bg_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\hunter_area_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

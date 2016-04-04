@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/EVA_Bead_2">
+        <file>Resources/Icons/bear_icon.png</file>
+        <file>Resources/Icons/food_icon.png</file>
+        <file>Resources/Icons/hunter_icon.jpg</file>
+        <file>Resources/Icons/tree_icon.png</file>
+        <file>Resources/Icons/bg_icon.png</file>
+        <file>Resources/Icons/hunter_area_icon.png</file>
+    </qresource>
+</RCC>

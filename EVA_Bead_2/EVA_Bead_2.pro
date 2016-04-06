@@ -31,3 +31,6 @@ maps.files = ./Maps/*
 target.path = $$OUT_PWD
 INSTALLS += maps
 INSTALLS += target
+CONFIG(nocpp14) {
+    DEFINES += nocpp14
+}

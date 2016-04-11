@@ -117,6 +117,7 @@
     <ClCompile Include="Implementation\ImplGame.cpp" />
     <ClCompile Include="Implementation\ImplUtility.cpp" />
     <ClCompile Include="Implementation\ImpTypes.cpp" />
+    <ClCompile Include="Implementation\stdmakeunique.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="View\GameView.cpp" />
     <ClCompile Include="View\ViewGridLabel.cpp" />

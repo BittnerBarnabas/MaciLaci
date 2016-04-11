@@ -91,6 +91,9 @@
     <ClCompile Include="GeneratedFiles\qrc_eva_bead_2.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="Implementation\stdmakeunique.cpp">
+      <Filter>Implementation\Header</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="eva_bead_2.ui">

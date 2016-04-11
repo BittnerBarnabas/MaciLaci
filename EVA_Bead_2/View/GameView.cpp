@@ -8,9 +8,11 @@ namespace View
 	{
 		ui.setupUi(this);
 		ui.pauseButton->setEnabled(false);
+		ui.pausedLabel->setHidden(true);
 		createNewGame();
 		connect(ui.actionOpen_new_map, SIGNAL(triggered()), this, SLOT(openNewMap()));
 		connect(ui.openNewMapButton, SIGNAL(clicked()), this, SLOT(openNewMap()));
+		connect(ui.pauseButton, SIGNAL(clicked()), this, SLOT(togglePauseButton()));
 	}
 
 	EVA_2_Beadando::~EVA_2_Beadando()
@@ -151,6 +153,11 @@ namespace View
 	void EVA_2_Beadando::updateFoodToEat(int num)
 	{
 		ui.foodToEatDisplay->setText(QString::number(num));
+	}
+
+	void EVA_2_Beadando::togglePauseButton()
+	{
+		ui.pausedLabel->setHidden(!ui.pausedLabel->isHidden());
 	}
 
 }

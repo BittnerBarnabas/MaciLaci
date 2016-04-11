@@ -30,6 +30,7 @@ namespace View
 		void updateGameBoard();
 		void gameEnded(int result);
 		void updateFoodToEat(int num);
+		void togglePauseButton();
 
 	signals:
 		void startNewGame(QString path);

@@ -55,7 +55,7 @@
      <rect>
       <x>710</x>
       <y>10</y>
-      <width>261</width>
+      <width>264</width>
       <height>731</height>
      </rect>
     </property>
@@ -142,6 +142,38 @@
       </spacer>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="pausedLabel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>320</y>
+      <width>244</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PAUSED</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
